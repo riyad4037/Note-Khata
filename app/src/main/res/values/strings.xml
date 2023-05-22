@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NoteKhata</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+    <string name="your_score">Your Score</string>
+    <string name="yugesh_verma">Yugesh Verma</string>
+    <string name="projectworldsofficial_gmail_com">projectworldsofficial@gmail.com</string>
+    <string name="gajendra_pradhan">Gajendra Pradhan</string>
+    <string name="gajenpradhan18_gmail_com">Gajenpradhan18@gmail.com</string>
+    <string name="quizapp">NoteKhata Quiz</string>
+
+</resources>

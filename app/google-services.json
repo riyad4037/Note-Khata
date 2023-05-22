@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "767268474739",
+    "firebase_url": "https://mylastkhata-default-rtdb.firebaseio.com",
+    "project_id": "mylastkhata",
+    "storage_bucket": "mylastkhata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767268474739:android:1f555747528f774d723f06",
+        "android_client_info": {
+          "package_name": "com.example.getalcohall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767268474739-vqvs3kp9viv37mbk291r68mr0m8os62a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getalcohall",
+            "certificate_hash": "9091722d109e6296930ece89869397f4b9a385ab"
+          }
+        },
+        {
+          "client_id": "767268474739-5n8r0gls5k8dr68b118ltk57r52c3hr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOq3t1iNma4dGT6N6uier3TAjK9Pxn6CI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767268474739-5n8r0gls5k8dr68b118ltk57r52c3hr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

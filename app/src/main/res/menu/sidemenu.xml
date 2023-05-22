@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_menu"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="home"/>
+
+        <item android:id="@+id/dashboard_menu"
+            android:icon="@drawable/quicktest"
+            android:title="dashboard"/>
+
+        <item android:id="@+id/drawerAccount"
+            android:icon="@drawable/account"
+            android:title="Account"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Authentication">
+
+            <menu>
+                <item android:id="@+id/login_menu"
+                    android:icon="@drawable/quicktest"
+                    android:title="login"/>
+
+                <item android:id="@+id/logout_menu"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="logout"/>
+
+
+
+            </menu>
+
+
+
+
+
+
+        </item>
+
+    </group>
+
+    <item android:title="Sharing">
+
+        <menu>
+            <item android:id="@+id/share_menu"
+                android:icon="@drawable/quicktest"
+                android:title="Share"/>
+
+            <item android:id="@+id/Refer_menu"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Refer"/>
+
+
+
+        </menu>
+
+
+
+
+
+
+    </item>
+
+
+</menu>

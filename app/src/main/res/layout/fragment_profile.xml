@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Profile"
+    android:id="@+id/profileFragment"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_centerHorizontal="true"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:id="@+id/imagePicker">-->
+
+            <!--                <de.hdodenhof.circleimageview.CircleImageView-->
+            <!--                    android:id="@+id/pic_imageview"-->
+            <!--                    android:layout_width="150dp"-->
+            <!--                    android:layout_height="150dp"-->
+            <!--                    android:src="@drawable/boy_avatar"-->
+            <!--                    app:civ_border_color="@color/colorPrimary"-->
+            <!--                    app:civ_border_width="10dp" />-->
+
+            <!--                <ImageButton-->
+            <!--                    android:id="@+id/btnSave"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:src="@drawable/ic_baseline_save_24"-->
+            <!--                    android:text="Close"-->
+            <!--                    android:textColor="#ffffff"-->
+            <!--                    android:textStyle="bold"-->
+            <!--                    />-->
+            <!--            </LinearLayout>-->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/view13"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="20dp"
+                android:innerRadius="0dp"
+                android:shape="ring"
+                android:thicknessRatio="3.0"
+                app:cardCornerRadius="90dp">
+
+                <ImageView
+                    android:id="@+id/Dimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/boy_avatar" />
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/SelectImg22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/ic_baseline_save_24" />
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view13"
+                android:layout_marginTop="30dp"
+                android:text="Name"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_name_extract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_name"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Name"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/profile_name_extract_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_name_extract"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Name"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_name_extract_editText"
+                android:layout_marginTop="30dp"
+                android:text="Email"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_email_extract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_email"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Email"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/profile_Age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_email_extract"
+                android:layout_marginTop="30dp"
+                android:text="Age"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_Age_extract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_Age"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Age"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/profile_Age_extract_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_Age_extract"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Age"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/profile_Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_Age_extract_editText"
+                android:layout_marginTop="30dp"
+                android:text="Address"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_Address_extract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_Address"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Address"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/profile_Address_extract_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_Address_extract"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Address"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/profile_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_Address_extract_editText"
+                android:layout_marginTop="30dp"
+                android:text="Password"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profile_password_extract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_password"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Password"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/profile_password_extract_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_password_extract"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Password"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/update_profile_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_password_extract_editText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:text="Update" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/Edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_email_extract"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/edit" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+</RelativeLayout>
